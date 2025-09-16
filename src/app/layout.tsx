@@ -11,7 +11,7 @@ type RootLayoutProps = {
   children: React.ReactNode
 };
 
-export default function RootLayout({children,}: Readonly<RootLayoutProps>) {
+export default function RootLayout({children}: Readonly<RootLayoutProps>) {
   return (
     <html lang="pt-BR">
       <body className="qualquer">
