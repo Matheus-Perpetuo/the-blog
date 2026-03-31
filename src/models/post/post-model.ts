@@ -9,4 +9,4 @@ export type PostModel = {
     "createdAt": string,
     "updatedAt": string,
     "author": string
-}
+};
